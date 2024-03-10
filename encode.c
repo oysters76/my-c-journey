@@ -7,7 +7,7 @@ char to_upper(char c)
  return c; 
 }
 
-void enforce_rule(char c, char lower, char upper,char map, char * res)
+void enforce_rule(char c, char lower, char upper, char map, char * res)
 {
 
   if (c >= lower && c <= upper)
@@ -47,3 +47,4 @@ int main(void)
  putchar('\n');
  return 0; 
 }
+
